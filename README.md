@@ -22,14 +22,10 @@
 - 感谢 @黑果小兵 @黑苹果社区
 
 ## BIOS设置
+* 需要刷测试版BIOS
 * Secure Boot -> Secure Boot Enable：勾选Disable
-
-## BIOS设置 For 隐项
-* 将EFI-shell文件夹复制到U盘，改名为EFI，然后从U盘启动
-* 设置 Pre-Allocated DVMT 为 64M:
-  ***setup_var 0x107 0x02***
-* 禁用 CFG lock:
-  ***setup_var 0x3e 0x00***
+* Advanced -> System Agent -> Graphics Configura -> DVMT PreAllocated：勾选64M
+* Advanced -> Power Performanc -> CPU Power Manage -> CPU Lock Configura：勾选Disable
 
 
 ## 更新日志
