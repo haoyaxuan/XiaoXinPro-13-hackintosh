@@ -1,0 +1,37 @@
+设置项		Var Store			    Variable	初始值		修改值
+DVMT		SaSetup				0x107		0x01		0x02
+cfg lock	CpuSetup			0x3e		0x01		0x00
+
+0xB25CE 	Setting: CFG Lock, Variable: 0x3E {05 91 53 03 54 03 70 01 03 00 3E 00 10 10 00 01 00}
+0xB25DF 		Option: Disabled, Value: 0x0 {09 07 04 00 00 00 00}
+0xB25E6 		Option: Enabled, Value: 0x1 {09 07 03 00 30 00 01}
+0xB25ED 	End of Options {29 02}
+
+0xB5279 	Setting: DVMT Pre-Allocated, Variable: 0x107 {05 91 4C 11 5F 11 75 02 02 00 07 01 10 10 00 FE 00}
+0xB528A 		Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0xB5290 		Option: 0M, Value: 0x0 {09 07 4D 11 00 00 00}
+0xB5297 		Option: 32M, Value: 0x1 {09 07 4E 11 00 00 01}
+0xB529E 		Option: 64M, Value: 0x2 {09 07 4F 11 00 00 02}
+0xB52A5 		Option: 4M, Value: 0xF0 {09 07 50 11 00 00 F0}
+0xB52AC 		Option: 8M, Value: 0xF1 {09 07 51 11 00 00 F1}
+0xB52B3 		Option: 12M, Value: 0xF2 {09 07 52 11 00 00 F2}
+0xB52BA 		Option: 16M, Value: 0xF3 {09 07 53 11 00 00 F3}
+0xB52C1 		Option: 20M, Value: 0xF4 {09 07 54 11 00 00 F4}
+0xB52C8 		Option: 24M, Value: 0xF5 {09 07 55 11 00 00 F5}
+0xB52CF 		Option: 28M, Value: 0xF6 {09 07 56 11 00 00 F6}
+0xB52D6 		Option: 32M/F7, Value: 0xF7 {09 07 57 11 00 00 F7}
+0xB52DD 		Option: 36M, Value: 0xF8 {09 07 58 11 00 00 F8}
+0xB52E4 		Option: 40M, Value: 0xF9 {09 07 59 11 00 00 F9}
+0xB52EB 		Option: 44M, Value: 0xFA {09 07 5A 11 00 00 FA}
+0xB52F2 		Option: 48M, Value: 0xFB {09 07 5B 11 00 00 FB}
+0xB52F9 		Option: 52M, Value: 0xFC {09 07 5C 11 00 00 FC}
+0xB5300 		Option: 56M, Value: 0xFD {09 07 5D 11 00 00 FD}
+0xB5307 		Option: 60M, Value: 0xFE {09 07 5E 11 00 00 FE}
+0xB530E 	End of Options {29 02}
+
+0xB5310 	Setting: DVMT Total Gfx Mem, Variable: 0x108 {05 91 60 11 61 11 76 02 02 00 08 01 10 10 01 03 00}
+0xB5321 		Default: 8 Bit, Value: 0x2 {5B 06 00 00 00 02}
+0xB5327 		Option: 128M, Value: 0x1 {09 07 62 11 00 00 01}
+0xB532E 		Option: 256M, Value: 0x2 {09 07 63 11 00 00 02}
+0xB5335 		Option: MAX, Value: 0x3 {09 07 64 11 00 00 03}
+0xB533C 	End of Options {29 02}
