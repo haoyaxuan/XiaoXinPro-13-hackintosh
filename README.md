@@ -1,4 +1,4 @@
-# DELL-7472
+# XiaoXinPro-13 2020
 ## 电脑配置
 
 | 规格   | 详细信息                              |
@@ -14,7 +14,13 @@
 
 
 ## 正常功能：
-1：显卡 （核显正常，独显禁用）
+- [x] CPU变频
+- [x] 显卡（独显在BIOS中直接禁用）
+- [ ] 睡眠，无法深度【S3】睡眠，小新通病Win下也无法深度睡眠
+- [x] 触摸板，支持完美手势
+- [x] 网卡，Intel AX201 WIFI正常驱动，蓝牙无法使用空投和接力，其他完美，想要全完美建议更换`白果拆机卡`。
+- [x] 硬盘，不要用三星和海力士的，建议使用西数SN720
+- [x] HiDPI，建议使用[RDM](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/RDM.zip)
 
 
 ## 镜像下载
@@ -23,9 +29,15 @@
 
 ## BIOS设置
 * 需要刷测试版BIOS，[BIOS Beta CLCN32WW.DPC10.rar](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/BIOS%20Beta%20CLCN32WW.DPC10.rar)
-* Secure Boot -> Secure Boot Enable：勾选Disable
+* Fn+F2进入BIOS
+* Security -> Secure Boot：勾选Disable
 * Advanced -> System Agent -> Graphics Configura -> DVMT PreAllocated：勾选64M
 * Advanced -> Power Performanc -> CPU Power Manage -> CPU Lock Configura -> CFG Lock：勾选Disable
+
+
+## 注意
+- 部分i5的 CPUID 为 `0x0A0660`，需要仿冒cpuid ：`0x0806EC`、`0x0806EB` 或其他），详情看[这里](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/%E6%9F%A5%E7%9C%8B%E6%9C%AC%E6%9C%BACPUID)
+- 其他详细教程可以查看[黑果小兵 小新Pro13 EFI](https://github.com/daliansky/XiaoXinPro-13-hackintosh)，再次感谢 @黑果小兵
 
 
 ## 更新日志
