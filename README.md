@@ -22,7 +22,7 @@
 - 感谢 @黑果小兵 @黑苹果社区
 
 ## BIOS设置
-* 需要刷测试版BIOS，刷包在`hackintool\BIOS Beta CLCN32WW.DPC10.rar`
+* 需要刷测试版BIOS，刷包[BIOS Beta CLCN32WW.DPC10.rar](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/BIOS%20Beta%20CLCN32WW.DPC10.rar)
 * Secure Boot -> Secure Boot Enable：勾选Disable
 * Advanced -> System Agent -> Graphics Configura -> DVMT PreAllocated：勾选64M
 * Advanced -> Power Performanc -> CPU Power Manage -> CPU Lock Configura -> CFG Lock：勾选Disable
