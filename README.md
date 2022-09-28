@@ -27,12 +27,21 @@
 -  [MacOS Monterey 12.5](https://osx.cx/macos-monterey-12-5-21f79.html)
 - 感谢 @黑果小兵 @黑苹果社区
 
+
 ## BIOS设置
 * 需要刷测试版BIOS，[BIOS Beta CLCN32WW.DPC10.rar](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/BIOS%20Beta%20CLCN32WW.DPC10.rar)
 * Fn+F2进入BIOS
 * Security -> Secure Boot：勾选Disable
 * Advanced -> System Agent -> Graphics Configura -> DVMT PreAllocated：勾选64M
 * Advanced -> Power Performanc -> CPU Power Manage -> CPU Lock Configura -> CFG Lock：勾选Disable
+
+
+## 不刷BIOS 设置CFG lock和DVMT
+* 将[EFI-shell](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/EFI-shell.zip)解压后复制到U盘，改名为EFI，然后从U盘启动，进入EFI Shell界面
+* 设置 Pre-Allocated DVMT 为 64M:
+  ***setup_var 0x107 0x02***
+* 禁用 CFG lock:
+  ***setup_var 0x3E 0x00***
 
 
 ## 注意
