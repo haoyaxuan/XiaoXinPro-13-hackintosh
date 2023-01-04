@@ -16,7 +16,7 @@
 ## 正常功能：
 - [x] CPU变频
 - [x] 显卡（独显在BIOS中直接禁用）
-- [ ] 睡眠，无法深度【S3】睡眠，小新通病Win下也无法深度睡眠
+- [x] 睡眠，Win下无法深度睡眠，Mac下可以
 - [x] 触摸板，支持完美手势
 - [x] 网卡，Intel AX201 WIFI正常驱动，蓝牙无法使用空投和接力，其他完美，想要全完美建议更换`白果拆机卡`。
 - [x] 硬盘，不要用三星和海力士的，建议使用西数SN720
@@ -45,9 +45,11 @@
 
 
 ## 注意
+- 睡眠，请使用[睡眠脚本](https://github.com/haoyaxuan/XiaoXinPro-13-hackintosh/raw/main/hackintool/睡眠脚本.zip)解压后，执行`双击设置睡眠模式25.command`。
 - 部分i5的 CPUID 为 `0x0A0660`，需要仿冒cpuid ：`0x0806EC`、`0x0806EB` 或其他），详情看[这里](https://github.com/daliansky/XiaoXinPro-13-hackintosh/wiki/%E6%9F%A5%E7%9C%8B%E6%9C%AC%E6%9C%BACPUID)
 - 其他详细教程可以查看[黑果小兵 小新Pro13 EFI](https://github.com/daliansky/XiaoXinPro-13-hackintosh)，再次感谢 @黑果小兵
 
 
 ## 更新日志
+- 2023.01.04 升级OC0.8.7，解决睡眠问题。
 - 2022.09.22 全新EFI，fork [黑果小兵 小新Pro13 EFI](https://github.com/daliansky/XiaoXinPro-13-hackintosh)
