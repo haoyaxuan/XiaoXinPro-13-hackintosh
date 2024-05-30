@@ -51,5 +51,5 @@
 
 
 ## 更新日志
-- 2023.01.04 升级OC0.8.7，解决睡眠问题。
+- 2024.05.30 重新整理EFI，版本降到0.8.4
 - 2022.09.22 全新EFI，fork [黑果小兵 小新Pro13 EFI](https://github.com/daliansky/XiaoXinPro-13-hackintosh)
