@@ -51,5 +51,6 @@
 
 
 ## 更新日志
+- 2024.06.12 Upgrade OC 0.9.3
 - 2023.01.04 升级OC0.8.7，解决睡眠问题。
 - 2022.09.22 全新EFI，fork [黑果小兵 小新Pro13 EFI](https://github.com/daliansky/XiaoXinPro-13-hackintosh)
