@@ -1248,7 +1248,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1498,7 +1498,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>amfi=0x80 igfxrpsc=1 -igfxblr brcmfx-country=#a -lilubetaall</string>
+				<string>-v amfi=0x80 igfxrpsc=1 -igfxblr brcmfx-country=#a -lilubetaall</string>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
