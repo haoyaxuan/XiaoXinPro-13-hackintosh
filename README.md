@@ -4,10 +4,10 @@
 | 规格   | 详细信息                              |
 |------|-----------------------------------|
 | 电脑型号 | XiaoXinPro13 2020                 |
-| 处理器  | Intel i5-10210U                   |
+| 处理器  | Intel i7-10710U（六核）               |
 | 内存   | 海力士 DDR4 16GB                     |
 | 硬盘   | UMIS 512GB M.2 Nvme               |
-| 集成显卡 | Intel HD Graphics CFL CRB                      |
+| 集成显卡 | Intel HD Graphics CFL CRB         |
 | 独立显卡 | GeForce MX350 2G（Disable）         |
 | 声卡   | Realtek ALC257                    |
 | 网卡   | Intel AX201（Replace BCM94360CS2 ） |
